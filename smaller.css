@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  font-size: 1 em;
+  line-height: 1.25em;
+}
+
+* {
+  vertical-align: baseline;
+}
+
+.bold-title {
+  font-weight: bold;
+  padding-left: 3%;
+}
+
+.inline {
+  display: inline;
+}
+
+.column-content-width {
+  float: left;
+}
+
+.two-columns {
+  width: inherit;
+}
+
+.two-columns div {
+  float: left;
+  padding: 0px 0px 0px 2%;
+}
+
+.column-75-width {
+  width: 75%;
+}
+
+.column-25-width {
+  width: 25%;
+}
+
+.column-25-width img {
+  width: 100%;
+}
+
+.black-times {
+  color: black;
+  font-family: Times, serif;
+}
+
+.small {
+  font-size: .8em;
+}
+
+.red-arial {
+  color: #A41A23;
+  font-family: Arial, sans-serif;
+  font-size: 70%;
+}
+
+.grey {
+  color: #9CA2A8;
+}
+
+.upcase {
+  text-transform: uppercase;
+}

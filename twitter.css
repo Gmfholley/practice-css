@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 400;
+}
+
+#primary {
+  width: 600px;
+  position: relative;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 300;
+  margin: 10px;
+}
+
+h4 {
+  font-size: 1.1em;
+  margin: 0px;
+}
+
+.blue {
+  color: #5EACEF;
+}
+
+.grey {
+  color: #8A9FBC;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.white {
+  color: white;
+}
+
+.blue-button {
+  background: #5CA9EC;
+  border-radius: 5%;
+  padding: 7px 15px;
+  border: .25px solid #4388C4;
+  font-size: .9em;
+}
+
+.smaller {
+  font-size: .8em;
+}
+
+.small {
+  font-size: .7em;
+}
+
+
+
+.content .inline-block {
+  display: inline-block;
+}
+
+.space {
+  height: 50px;
+}
+
+.banner {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.nav-button {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.three-columns div {
+  float: left;
+}
+
+.content div {
+  display: inline;
+  float: none;
+}
+
+.content .block {
+  display: block;
+}
+
+.content {
+  width: 440px;
+}
+
+.left-notification img {
+  float: right;
+  margin: 0px 5px;
+}
+
+.right-notification {
+    text-align: right;
+}
+.left-notification, .right-notification {
+  width: 80px;
+}

@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+.body {
+  font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+}
+
+a:hover {
+  cursor: hand;
+}
+
+.article-excerpt a {
+  color: black;
+  text-decoration: none;
+}
+
+.article-excerpt h2 {
+  font-size: 1.624em;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.byline .name, .byline .by {
+  color: #999999;
+  float: left;
+  margin-left: 0.5em;
+}
+
+.byline .name {
+  text-transform: uppercase;
+}
+
+.content {
+  font-size: 13px;
+  line-height: 1.38em;
+}
+
+.comments-link * {
+  float: left;
+}
+
+
+.clear {
+  clear: both;
+}
+
+.comments-link a {
+  text-decoration: underline;
+  
+}
+
+
+.blue {
+  font-family: Arial, sans-serif;
+  font-size: 0.5em;
+  color: #3268BB;
+  
+}

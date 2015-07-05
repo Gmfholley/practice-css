@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+/*body {
+  margin: 0px;
+  padding: 0px;
+}
+*/
+
+.folder-name {
+  font-family: Arial, sans serif;
+  color: black;
+}
+
+.side-navigation {
+  width: 250px;
+}
+
+.folder-name {
+}
+
+.folder-item div {
+  float: left;
+}
+
+.no-caret {
+  width: 30px;
+  height: 20px;
+}
+
+.caret {
+      -ms-transform: scale(1,.5); /* IE 9 */
+      -webkit-transform: scale(1,.5); /* Safari */
+      transform: scale(1,.5);
+      width: 30px;
+      height: 20px;
+      text-align: center;
+}
+
+.bold-unread {
+  font-weight: bold;
+}
+
+.red, .red * {
+  color: #D94C42;
+  border-left: #D94C42 none ;
+}
+
+.selected {
+  border-left: 3px solid;
+}
+
+.highlighted * {
+  background: #EEEEEE;
+}
+
+.sub-folder .folder-name {
+  padding-left: 10px;
+}

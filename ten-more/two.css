@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+/*gradient from color of background to lighter in middle to darker at lower right*/
+.diagonal-gradient {
+    background: -webkit-linear-gradient(left top, #13B4EF , #53C8F3, #16A2D5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #13B4EF , #53C8F3, #16A2D5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #13B4EF , #53C8F3, #16A2D5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #13B4EF , #53C8F3 , #16A2D5); /* Standard syntax */
+}
+
+
+header {
+  width: 650px;
+}
+
+.blue-background {
+  background: #13B4EF;
+}
+
+.dark-blue-border {
+  border-top: 5px #159DCF solid;
+}
+
+nav {
+  margin: 5px 0px 0px 5px;
+  height: 40px;
+  border-bottom: .5px black solid;
+  border-top: .5px #4EC7F3 solid;
+}
+
+nav a {
+  height: 40px;
+  border-radius: 5%;
+  height: 40px;
+  padding: 10px 5px;
+  text-decoration: none;
+  line-height: 2em;
+}
+
+.white {
+  color: white;
+}
+
+.all-caps {
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  background: white;
+  color: #1BB7F1;
+}

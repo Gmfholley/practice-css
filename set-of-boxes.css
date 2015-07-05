@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  font-size: 1em;
+  font-color: black;
+}
+
+.three-columns-container {
+  border-bottom: black 1px solid;
+  padding: 0px 2%;
+}
+
+
+.one-of-three-cols {
+  float: left;
+  width: 33.33%;
+  padding: 2%;
+  margin-bottom: 2%;
+  border-left: #E2E2E2 1px solid;
+  border-right: #E2E2E2 1px solid;
+  
+}
+
+.one-of-three-cols img {
+  width: 100%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.extra-line-space {
+  line-height: 1.5em;
+  font-size: 1.5em;
+}
+
+.grey {
+  color: #666666;
+}

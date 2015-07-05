@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+}
+
+
+.article-excerpt .post-meta-column {
+  width: 25%;
+  float: left;
+}
+
+.post-meta-column p {
+  margin: 0px;
+}
+
+
+.article-excerpt .post-excerpt {
+  width: 75%;
+  float: left;
+}
+
+.post-author-thumbnail {
+  width: 42px;
+  height: 40px;
+  overflow: hidden;
+  text-align: center;
+  float: left;
+}
+
+.post-author-thumbnail img {
+  height: inherit;
+  position: relative;
+  left: 100%;
+  margin-left: -200%;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li {
+  margin: 4% 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.margin {
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+h2 {
+  font-size: 175%;
+}
+
+.pink {
+  color: #F0426E;
+}
+
+.blue-underline {
+  color: #10AFE8;
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.black {
+  color: black;
+}
+
+.grey {
+  color: #666666;
+}
+
+.small {
+  font-size: 75%;
+}

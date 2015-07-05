@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background: url("three-header.jpg");
+  height: 90px;
+  width: 190px;
+}
+
+.inline {
+  display: inline;
+}
+
+header * {
+  float: right;
+}
+
+.white {
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+header a {
+  margin: 5px;
+}
